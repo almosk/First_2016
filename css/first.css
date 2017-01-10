@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  width: calc(100vh*3);
+  }
+
+.big {
+  background-color: red;
+  height: 100vh;
+  width: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: : 100vh;
+}
+
+.small {
+  width: calc(100vh / 2);
+  height: calc(100vh / 2);
+}
+
+.s1 {
+  background-color: blue;
+}
+
+.s2 {
+  background-color: yellow;
+}
