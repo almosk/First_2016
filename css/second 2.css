@@ -16,43 +16,43 @@ body {
   /*min-width: 996px;*/
 }
 
+.gallery {
+  width: 70vw;
+  height: 70vh;
+  margin-top: 15vh;
+  margin-left: 15vw;
+}
+
 .galleryRail {
-  /*margin-top: 50px;*/
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   /*overflow: hidden;*/
   align-items: flex-end;
 
-  width: calc((100vh - 50px) * 5 - 50vh);
-  height: calc(100vh);
+  width: 100%;
+  height: 100%;
   }
 
 .page {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
-  width: calc((100vh - 50px) * 1,5);
-  height: calc(100vh - 50px);
+  width: 100%;
+  height: 100%;
 }
 
 .big {
-  background-color: red;
-  height: calc(100vh - 50px);
-  width: calc(100vh - 50px);
+
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: : calc(100vh - 50px);
+
 }
 
 .small {
-  width: calc((100vh - 50px) / 2);
-  height: calc((100vh - 50px) / 2);
+
 }
 
 .s1 {

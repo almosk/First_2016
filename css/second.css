@@ -24,8 +24,8 @@ body {
   /*overflow: hidden;*/
   align-items: flex-end;
 
-  width: calc((100vh - 50px) * 5 - 50vh);
-  height: calc(100vh);
+  width: calc((100vh - 100px) * 5 - 50vh);
+  height: 100vh;
   }
 
 .page {
@@ -33,26 +33,26 @@ body {
   flex-direction: row;
   justify-content: flex-start;
 
-  width: calc((100vh - 50px) * 1,5);
-  height: calc(100vh - 50px);
+  width: calc((100% - 50px) * 1,5);
+  height: calc(100% - 50px);
 }
 
 .big {
   background-color: red;
-  height: calc(100vh - 50px);
-  width: calc(100vh - 50px);
+  height: calc(100vh - 100px);
+  width: calc(100vh - 100px);
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: : calc(100vh - 50px);
+  height: : calc(100vh - 100px);
 }
 
 .small {
-  width: calc((100vh - 50px) / 2);
-  height: calc((100vh - 50px) / 2);
+  width: calc((100vh - 100px) / 2);
+  height: calc((100vh - 100px) / 2);
 }
 
 .s1 {
