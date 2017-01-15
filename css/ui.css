@@ -1,0 +1,29 @@
+.galleryNav {
+  position: absolute;
+  margin-left: 6vw;
+  width: 88vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /*z-index: 1;*/
+}
+
+.disabled.vis {
+  height: 20vh;
+  width: 10vh;
+  background-size: auto 100%;
+  background-image: url(../arrow.svg);
+  background-repeat: no-repeat;
+}
+
+.galleryNav a:hover {
+  width: 10vh;
+  background-image: url(../arrow2.svg);
+  transition: all .4s ease;
+}
+
+#prev {
+  transform: rotate(180deg);
+}
