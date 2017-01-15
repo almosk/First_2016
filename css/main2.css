@@ -49,7 +49,7 @@ body {
 }
 
 .big {
-  background-color: red;
+  /*background-color: red;*/
   height: calc(100vh - 100px);
   width: calc(100vh - 100px);
 }
@@ -66,13 +66,13 @@ body {
   height: calc((100vh - 100px) / 2);
 }
 
-.s1 {
+/*.s1 {
   background-color: blue;
 }
 
 .s2 {
   background-color: yellow;
-}
+}*/
 
 figure:hover {
   transform: scale(1.01);
