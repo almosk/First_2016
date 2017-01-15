@@ -16,6 +16,14 @@ body {
   /*min-width: 996px;*/
 }
 
+.gallery {
+  height: 100vh;
+  width: 100vw;
+  transform: scale(0.7);
+  overflow: scroll;
+
+}
+
 .galleryRail {
   /*margin-top: 50px;*/
   display: flex;
@@ -24,8 +32,9 @@ body {
   /*overflow: hidden;*/
   align-items: flex-end;
 
-  width: calc((100vh - 50px) * 5 - 50vh);
-  height: calc(100vh);
+  width: calc((100vh - 100px) * 5 - 50vh);
+  height: 100vh;
+
   }
 
 .page {
@@ -33,26 +42,26 @@ body {
   flex-direction: row;
   justify-content: flex-start;
 
-  width: calc((100vh - 50px) * 1,5);
-  height: calc(100vh - 50px);
+  width: calc((100% - 50px) * 1,5);
+  height: calc(100% - 50px);
 }
 
 .big {
   background-color: red;
-  height: calc(100vh - 50px);
-  width: calc(100vh - 50px);
+  height: calc(100vh - 100px);
+  width: calc(100vh - 100px);
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: : calc(100vh - 50px);
+  height: : calc(100vh - 100px);
 }
 
 .small {
-  width: calc((100vh - 50px) / 2);
-  height: calc((100vh - 50px) / 2);
+  width: calc((100vh - 100px) / 2);
+  height: calc((100vh - 100px) / 2);
 }
 
 .s1 {
@@ -61,4 +70,10 @@ body {
 
 .s2 {
   background-color: yellow;
+}
+
+figure:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 3px 10px 0 #000000;
+  transition: all .1s ease;
 }
