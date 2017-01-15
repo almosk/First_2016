@@ -4,7 +4,7 @@
   left: 0;
 
   width: 100%;
-  /*min-width: 996px;*/
+  min-width: 996px;
   height: 50px;
   padding: 20px;
 
@@ -14,6 +14,8 @@
 
   background-color: black;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+
+  z-index: 1;
 }
 
 .menubar section {
@@ -21,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 70%;
+  width: 65%;
 }
 
 .menubar_left,
@@ -35,4 +37,9 @@
   font-family: 'Overpass Mono', monospace;
   font-size: 18px;
   color: white;
+}
+
+.menubar a:hover {
+  opacity: .9;
+  transition: all .1s ease;
 }

@@ -26,7 +26,12 @@
   line-height: 25px;
   /*width: 350px;*/
   /*font-family: 'PT Sans';*/
-font-family: 'Overpass Mono', monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 18px;
   color: white;
+}
+
+.footer a:hover {
+  opacity: .9;
+  transition: all .1s ease;
 }
