@@ -11,10 +11,10 @@
 .popup {
   position: fixed;
   z-index: 10;
-  top: -70vh;
+  /*top: -70vh;*/
   width: 100vw;
   height: 100vh;
-  /*opacity: 0;*/
+  opacity: 0;
 }
 
 .popup:before {
@@ -29,25 +29,22 @@
 }
 
 .popup-content {
-  width: 70vw;
-  height: 60vh;
-  margin-left: 15vw;
-
+  width: 60vw;
+  height: 55vh;
+  margin-left: 20vw;
   position: absolute;
   z-index: 2;
-  /*top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;*/
   background-color: #000000;
-  padding: 20px;
+  padding: 30px;
+
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-end;;
   align-content: center;
   align-items: center;
+
+  box-shadow: 1px 1px 20px 0 #000000;
 }
 
 .popup-shower {
@@ -68,11 +65,10 @@
 .popup-closer {
   cursor: pointer;
   /*position: absolute;*/
-  height: 14%;
-  width: 10%;
+  height: 100px;
+  width: 130px;
   /*background-color: blue;*/
   background-image: url(../white_arrow.svg);
-  /*transform: rotate(-90deg);*/
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -82,8 +78,19 @@
 }
 
 .popup-checkbox:checked + .popup {
-  /*opacity: 1;*/
-  top: 0;
+  opacity: 1;
   display: block;
-  transition: all 1s ease;
+  transition: all .1s ease;
+}
+
+.textabout {
+  margin-top: 3vh;
+  height: 50vh;
+  width: 50vw;
+  font-size: 18px;
+  color: white;
+  font-family: 'Playfair Display';
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1.5;
 }
