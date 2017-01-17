@@ -14,12 +14,12 @@
   height: 20%;
   width: 8.2%;
   background-size: auto 100%;
-  background-image: url(../arrow.svg);
+  background-image: url(../svg/arrow.svg);
   background-repeat: no-repeat;
 }
 
 .galleryNav a:hover {
-  background-image: url(../arrow2.svg);
+  background-image: url(../svg/arrow2.svg);
   transition: all .4s ease;
 }
 

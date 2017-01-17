@@ -68,13 +68,13 @@
   height: 100px;
   width: 130px;
   /*background-color: blue;*/
-  background-image: url(../white_arrow.svg);
+  background-image: url(../svg/white_arrow.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .popup-closer:hover {
-  background-image: url(../white_arrow2.svg);
+  background-image: url(../svg/white_arrow2.svg);
 }
 
 .popup-checkbox:checked + .popup {
@@ -89,7 +89,7 @@
   width: 50vw;
   font-size: 18px;
   color: white;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   text-align: center;
   line-height: 30px;
   letter-spacing: 1.5;
