@@ -38,7 +38,7 @@ body {
 }
 
 .big {
-  background-color: red;
+  /*background-color: red;*/
   height: calc(100vh - 100px);
   width: calc(100vh - 100px);
 }
