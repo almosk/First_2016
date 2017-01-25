@@ -62,3 +62,36 @@ body {
 .s2 {
   background-color: yellow;
 }
+
+
+@media screen and (max-width: 600px) {
+  .galleryRail {
+    height: calc((150vw) * 3);
+    width: 100vw;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .page {
+    flex-direction: column;
+    height: 150vw;
+    width: 100vw;
+  }
+
+  .big {
+    height: calc(100vw);
+    width: calc(100vw);
+  }
+
+  .small {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50vw;
+  }
+}
